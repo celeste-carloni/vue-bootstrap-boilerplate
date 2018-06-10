@@ -14,8 +14,9 @@ Vue.config.productionTip = false
 import Layout from 'bootstrap-vue/es/components/layout';
 
 //Bootstrap Style
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+//if using only bootstrap-vue, otherwise integrate custom style in entry component
+// import 'bootstrap/dist/css/bootstrap.css'
+// import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.use(Layout);
 

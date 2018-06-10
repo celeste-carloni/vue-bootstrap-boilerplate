@@ -11,6 +11,10 @@ export default {
 </script>
 
 <style lang="scss">
+//https://medium.com/@BjornKrols/integrating-and-customising-bootstrap-4-in-vue-js-cbc29ba7688e
+@import './assets/styles/vendor/bootstrap/custom-bootstrap.scss';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
